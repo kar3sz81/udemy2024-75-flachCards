@@ -36,7 +36,12 @@ function App() {
 
   return (
     <>
-  
+  <div>
+    {questions.map(question=>{
+      //console.log(question.question);
+      <div><p>{question.question}</p></div>
+    })}
+  </div>
 
     </>
   )
